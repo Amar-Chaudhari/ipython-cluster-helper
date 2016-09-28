@@ -13,7 +13,7 @@ setup(name="ipython-cluster-helper",
       author_email="rory.kirchner@gmail.com",
       description="Simplify IPython cluster start up and use for "
       "multiple schedulers.",
-      long_description=(open('README.rst').read()),
+      long_description=(open('README.rst', encoding='utf-8').read()),
       license="MIT",
       zip_safe=False,
       url="https://github.com/roryk/ipython-cluster-helper",
